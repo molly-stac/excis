@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    </style>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form action="#" method="post">
+<br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+<br>
+        <label for="date_of_joining">Date of Joining:</label>
+        <input type="date" id="date_of_joining" name="date_of_joining" required>
+<br>
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="BIT">BIT</option>
+            <option value="DIT">DIT</option>
+            <option value="BAV">BAV</option>
+            <option value="DAV">DAV</option>
+        </select>
+<br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+<br>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="friend_name">Enter Name of your friend</label>
+        <input type="text" id="friend_name" name="friend_name" required>
+<br>
+        <label for="file">Choose the file you want to post to your friend</label>
+        <input type="file" id="file" name="file" required>
+<br>
+        <div class="checkbox-group">
+            <label>What does the file contain?</label>
+<br>
+            <label><input type="checkbox" name="file_content" value="image"> Image</label>
+            <label><input type="checkbox" name="file_content" value="source_code"> Source code</label>
+            <label><input type="checkbox" name="file_content" value="binary_code"> Binary code</label>
+        </div>
+        <div class="message">You have Completed the Form. 
+        <button type="submit">Submit Query</button>
+    </form>
+</body>
